@@ -2,7 +2,7 @@
              которая принимает на вход три числа
              и выдаёт максимальное из этих чисел.*/
 
-Console.WriteLine("Сравнниваем три  числа между собой.");
+Console.WriteLine("Сравниваем три числа между собой.");
 
 Console.Write("Введите первое число: ");
 int A= Convert.ToInt32(Console.ReadLine());
@@ -15,18 +15,18 @@ int C = Convert.ToInt32(Console.ReadLine());
 
 if  ((A == B)&&(B==C))
  {
-     Console.WriteLine("Все числа равны между собой.");
+     Console.WriteLine("Все числа равны между собой.Максимального нет.");
  }
  else if ((A > B)&&(A > C))
  {
-     Console.WriteLine("Максимальное первое число: " + A);
+     Console.WriteLine("Максимальное число: " + A);
  }
  else if (B > C)
  {
-     Console.WriteLine("Максимальное второе число: " + B);
+     Console.WriteLine("Максимальное число: " + B);
 }
  else 
   {
-        Console.WriteLine("Максимальное третье число: " + C);
+        Console.WriteLine("Максимальное число: " + C);
   }
 // //  Ура!!! Это моя вторая программа написанная самостоятельно.
