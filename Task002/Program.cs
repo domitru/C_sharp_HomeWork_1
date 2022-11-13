@@ -13,6 +13,7 @@ int B = Convert.ToInt32(Console.ReadLine());
 if ( A > B )
 {
     Console.WriteLine( "Максимальное число А = " + A);
+    Console.WriteLine( "Минимальное  число B = " + B);
 }
 else if ( A == B )
 {
@@ -21,5 +22,6 @@ else if ( A == B )
 else
 {
     Console.WriteLine( "Максимальное число В = " + B);
+    Console.WriteLine( "Минимальное  число А = " + A);
 }
 //  Ура!!! Это моя первая программа написанная самостоятельно.
