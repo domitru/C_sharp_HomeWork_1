@@ -9,7 +9,7 @@ string number = Console.ReadLine();
 int a = Convert.ToInt32(number);
 int b = 2;
 
-while ( b <= a )
+while ( b <= a)
 {
     Console.Write( b + ", ");
     b = b + 2;
